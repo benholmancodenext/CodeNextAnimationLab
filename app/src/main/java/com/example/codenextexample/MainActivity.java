@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        GoogleSearchFragment fragment = GoogleSearchFragment.createInstance();
+        AnimationExampleFragment fragment = AnimationExampleFragment.createInstance();
 
         getSupportFragmentManager().beginTransaction()
                 .add(R.id.fragment_container, fragment).commit();
