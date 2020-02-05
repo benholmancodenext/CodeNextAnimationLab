@@ -46,17 +46,7 @@ public class GoogleSearchFragment extends Fragment {
         openGoogleButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(final View view) {
-                View parentView = (View) view.getParent();
-                int parentHeight = parentView.getHeight();
-                int parentWidth = parentView.getWidth();
-                int halfHeight = parentHeight / 2;
-                int halfWidth = parentWidth / 2;
-                RectF rect = new RectF(0, halfHeight, halfWidth, parentHeight);
-                Path path = new Path();
-                path.arcTo(rect, 45.0f, 360.0f, false);
-                PathInterpolator pathInterpolator = new PathInterpolator(path);
-
-                ObjectAnimator animator = ObjectAnimator.ofFloat()
+                testAnimation(view);
             }
         });
 

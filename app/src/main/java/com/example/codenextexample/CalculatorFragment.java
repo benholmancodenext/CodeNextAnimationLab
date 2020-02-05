@@ -14,15 +14,15 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Calculator extends Fragment {
+public class CalculatorFragment extends Fragment {
 
 
-    public Calculator() {
+    public CalculatorFragment() {
         // Required empty public constructor
     }
 
-    public static Calculator newInstance() {
-        return new Calculator();
+    public static CalculatorFragment newInstance() {
+        return new CalculatorFragment();
     }
 
 

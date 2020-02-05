@@ -5,11 +5,11 @@
     android:layout_height="match_parent"
     tools:context=".GoogleSearchFragment">
 
-    <View
+    <Button
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:id="@+id/launchGoogleButton"
         android:layout_gravity="center"
-        android:background="@color/colorPrimary"/>
+        android:text="Animate!"/>
 
 </FrameLayout>
